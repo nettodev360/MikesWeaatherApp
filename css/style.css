@@ -58,6 +58,34 @@ input.search-bar {
     width: calc(100% - 100px);
 }
 
+.description {
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center; 
+}
+
+.icon {
+
+}
+
 h1.temp {
     margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
 }
