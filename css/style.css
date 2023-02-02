@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Dancing Script', cursive;
     font-family: 'Sono', sans-serif;
-    background: beige;
+    background: rgb(239, 239, 121);
     background-image: url('https://source.unsplash.com/1600x900/?landscape,nature,water');
     font-size: 120%;
 }
